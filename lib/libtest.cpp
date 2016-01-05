@@ -10,7 +10,7 @@ MyClass::MyClass()
 
 void MyClass::DoSomething()
 {
-  cout<<x<<endl;
+  cout << x << endl;
 }
 
 
