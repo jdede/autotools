@@ -2,6 +2,7 @@ AC_INIT([KeetchiTest], [0.1], [jd@comnets.uni-bremen.de])
 AM_INIT_AUTOMAKE(foreign -Wall -Werror)
 
 AM_PROG_AR
+AC_CONFIG_MACRO_DIR([m4])
 AC_PROG_CXX
 AC_PROG_LIBTOOL
 AC_CONFIG_HEADERS([config.h])
